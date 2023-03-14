@@ -14,7 +14,7 @@ p {
     margin: .5em 0;
 }
 
-h1, h3 + p {
+h1 + p, h3 + p {
     color: purple;
     font-family: sans-serif;
     font-weight: bold;
@@ -33,7 +33,32 @@ header > p {
     font-size: 1.25rem;
 }
 
-profile-pic {
+.profile-pic{
     width: 150px;
     border-radius: 50%;
 }
+
+a[rel="external"] {
+    color: purple;
+}
+
+#experience > section:first-of-type{
+    border-bottom: 2px dashed #ccc;
+}
+
+main > section {
+    margin-bottom: 3rem;
+}
+
+main > section:first-of-type > p:first-of-type > strong {
+    color: purple
+}
+
+li:nth-child(even){
+    color: purple;
+}
+
+dl > div:last-of-type{
+    background-color: #ccc;
+}
+
